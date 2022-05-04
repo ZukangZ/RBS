@@ -1,0 +1,37 @@
+\documentclass[14pt, fleqn]{extarticle}
+\usepackage{geometry, amsmath, enumitem, listings, inconsolata}
+\geometry{margin = 0.5in}
+\setlist{nolistsep}
+\lstset{
+	tabsize=2,
+	breakindent=0pt,
+	mathescape,
+	breaklines
+}
+
+\title{Rigid Body Simulation}
+\begin{document}
+\ttfamily
+\setlength{\abovedisplayskip}{-15pt}
+\setlength{\belowdisplayskip}{0pt}
+
+\begin{lstlisting}
+Enviroment:
+	Boundary: obj collide aganist boundary.
+	fields: gravity, elasitisty, update time
+Objects:
+	collsion resolution, update position,
+
+	contoius colliosn resolution?
+	Board Sweep: sweep and prune, KD tree, Bounding volume hierarchies?
+	collsions: circle and boundary, circle and circle, circle and AABB decrpated, circle and SAT.
+	mouse:
+		drag object
+		fields: position, spring coeffienct,
+	circle:
+	square: decrpated
+	SAT:
+
+\end{lstlisting}
+
+\end{document}
